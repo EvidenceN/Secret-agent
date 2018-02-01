@@ -1,0 +1,18 @@
+html {
+	font-size: 18px;
+	font-color: white;
+	
+}
+
+.container {
+	width: 960px;
+}
+
+.main {
+	background-image: url(../images/moto.jpeg);
+	background-size: cover;
+}
+
+.middle {
+	background-color: white;
+}
