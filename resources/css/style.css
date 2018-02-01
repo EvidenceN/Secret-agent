@@ -4,6 +4,9 @@ html {
 	font-family: Helvetica;
 }
 
+body {
+	margin-right: 0 auto;
+}
 .container {
 	width: 960px;
 	padding: 0 500px;
@@ -12,7 +15,7 @@ html {
 .main {
 	background-image: url(../images/moto.jpeg);
 	background-size: cover;
-	height: 30rem;
+	height: 50rem;
 }
 .logo-background {
 	background-color: black;
@@ -36,7 +39,7 @@ html {
 
 .new {
 	background-color: black;
-	margin-top: 9.66rem;
+	margin-top: 25rem;
 	width: 25rem;
 }
 
@@ -55,3 +58,87 @@ html {
 	padding-bottom: 2rem;
 }
 
+.nav {
+	background-color: firebrick;
+}
+
+.nav-content {
+	display:flex;
+	justify-content: space-between;
+}
+
+.nav-content p {
+	padding: 0.75rem 0;
+}
+
+.gallery {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.images {
+	border: 4px solid black;
+	width: 30%;
+	text-align: center;
+}
+
+.gallery img {
+	height: 9rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	
+}
+
+.gallery p {
+	background-color: black;
+	width: 100%;
+	padding: 0.5rem 0;
+}
+
+ span img {
+	height: 30%;
+	width: 50%;
+}
+
+.time {
+	display:flex;
+	justify-content: space-between;
+	margin-bottom: 4rem;
+	
+}
+
+.location, .hours {
+	width: 35%;
+}
+
+.location span p{
+	background-color: black;
+	padding: 1rem 0 1rem 2rem;
+	color: white;
+	
+}
+
+.hours span p{
+	background-color: black;
+	padding: 1rem 0 1rem 2rem;
+	color: white;
+}
+
+.location p {
+	color: black;
+}
+
+.hours p {
+	color: black;
+}
+
+.footer {
+	background-color: black;
+	height: 5rem;
+}
+
+.secret p {
+	padding-top: 2.5rem;
+}
